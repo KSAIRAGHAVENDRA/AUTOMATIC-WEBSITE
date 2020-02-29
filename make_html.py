@@ -312,7 +312,7 @@ class SketchHTML:
 
 if __name__ == "__main__":
     # image_url = "https://ragstorageaccount.blob.core.windows.net/ragcontainer/mytest4.jpeg"
-    image_url = args["image"]
+    image_url = args["image_url"]
     obj = SketchHTML(image_url)
     img = obj.url_to_image(image_url)
     boxes = obj.box_extraction(img, "./src/Cropped/")  # ./src/webtest2.jpeg
