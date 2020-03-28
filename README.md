@@ -28,5 +28,7 @@
 # Note
   * Make sure that the audio recorded is Loud enough and clear to understand.
   * Make sure to draw the image with thick borders
+  * Image must must be in  .png or .jpg or .jpeg only
+  * Audio file supported is of .wav or .mp3 extension only
   
   
