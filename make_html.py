@@ -272,12 +272,12 @@ class SketchHTML:
 
     def get_text(self):
         # Add your Computer Vision subscription key and endpoint to your environment variables.
-        subscription_key = 'a31ff38d1335419792f36df84eb6a5f9'
-        endpoint = 'https://textrecognitionsrini.cognitiveservices.azure.com/'
+        subscription_key = 'YOUR_SUBSCRIPTION_KEY'
+        endpoint = 'YOUR_ENDPOINT'
         text_recognition_url = endpoint + "vision/v2.1/read/core/asyncBatchAnalyze"
 
         # Set image_url to the URL of an image that you want to analyze.
-        # image_url = "https://ragstorageaccount.blob.core.windows.net/ragcontainer/mytest4.jpeg"
+        
 
         headers = {'Ocp-Apim-Subscription-Key': subscription_key}
         params = {'visualFeatures': 'Categories,Description,Color'}
@@ -311,7 +311,7 @@ class SketchHTML:
         return polygons
 
 if __name__ == "__main__":
-    # image_url = "https://ragstorageaccount.blob.core.windows.net/ragcontainer/mytest4.jpeg"
+    
     image_url = args["image_url"]
     obj = SketchHTML(image_url)
     img = obj.url_to_image(image_url)
