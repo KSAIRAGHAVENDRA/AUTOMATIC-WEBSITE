@@ -1,8 +1,8 @@
-# WEBSITE GENERATOR
+# WEBSITE GENERATOR #
 
-## FEATURES:  Takes both IMAGE & AUDIO inputs
+## FEATURES:  Takes both IMAGE & AUDIO inputs ##
 
-# Azure services used :
+## Azure services used : ##
  * Cognitive services ( Text Recognition API, Speech API )
  * Virtual Machine
  * Events
