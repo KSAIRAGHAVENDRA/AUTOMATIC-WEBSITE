@@ -1,6 +1,6 @@
 # AUTOMATIC WEBSITE #
 
-## FEATURES:  Takes both IMAGE & AUDIO inputs ##
+## FEATURES:  Takes both Image & Audio inputs ##
 
 ## Azure services used : ##
  * Cognitive services ( Text Recognition API, Speech API )
