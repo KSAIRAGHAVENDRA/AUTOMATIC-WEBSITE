@@ -1,4 +1,4 @@
-# WEBSITE GENERATOR #
+# AUTOMATIC WEBSITE #
 
 ## FEATURES:  Takes both IMAGE & AUDIO inputs ##
 
